@@ -5,12 +5,13 @@
 
 int main(int argc, char *argv[]) 
 {
-	int a, b;
+	int a;
+	float b;
 	
 	printf("input two integers : ");
-	scanf("%d %d", &a, &b);
+	scanf("%d %f", &a, &b);
 	
-	printf("result is %f\n", (float)a/b);
+	printf("result is %f\n", a/b);
 
 	return 0;
 }
